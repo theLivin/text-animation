@@ -1,0 +1,40 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 4rem;
+  background-color: aliceblue;
+  color: #222;
+}
+
+.animation {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animation * {
+  padding: 0.2rem;
+}
+
+.fixed {
+  text-align: right;
+  background-color: aliceblue;
+  z-index: 3;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
+
+.move {
+  display: none;
+}
